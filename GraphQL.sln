@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.Api", "src\GraphQL.Api\GraphQL.Api.csproj", "{2165A39C-0CCF-4ED6-807D-8320E6D2A4E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.Infra.Data", "src\GraphQL.Infra.Data\GraphQL.Infra.Data.csproj", "{7DA7978E-6F84-427A-9B4A-8E4164341CA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.Models", "src\GraphQL.Models\GraphQL.Models.csproj", "{E7A3E003-F192-49A9-9E6E-34432FE96A4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.Infra.CrossCutting", "src\GraphQL.Infra.CrossCutting\GraphQL.Infra.CrossCutting.csproj", "{E1A63665-9EF0-424D-A4EC-8FE70D5F1F05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2165A39C-0CCF-4ED6-807D-8320E6D2A4E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2165A39C-0CCF-4ED6-807D-8320E6D2A4E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2165A39C-0CCF-4ED6-807D-8320E6D2A4E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2165A39C-0CCF-4ED6-807D-8320E6D2A4E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DA7978E-6F84-427A-9B4A-8E4164341CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA7978E-6F84-427A-9B4A-8E4164341CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA7978E-6F84-427A-9B4A-8E4164341CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA7978E-6F84-427A-9B4A-8E4164341CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A3E003-F192-49A9-9E6E-34432FE96A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A3E003-F192-49A9-9E6E-34432FE96A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A3E003-F192-49A9-9E6E-34432FE96A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A3E003-F192-49A9-9E6E-34432FE96A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A63665-9EF0-424D-A4EC-8FE70D5F1F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A63665-9EF0-424D-A4EC-8FE70D5F1F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A63665-9EF0-424D-A4EC-8FE70D5F1F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A63665-9EF0-424D-A4EC-8FE70D5F1F05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A618BFE1-87E7-455C-B891-7505AE67982C}
+	EndGlobalSection
+EndGlobal
