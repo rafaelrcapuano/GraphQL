@@ -27,7 +27,7 @@
 
 - Confirme se a instalaçao foi concluída com sucesso através do terminal de sua preferência:
 
-![image.png](./attachments/dotnet-version.png)
+![image.png](attachments/dotnet-version.png)
 
 # Como utilizar?
 
@@ -37,10 +37,10 @@
 dotnet run
 ```
 
-![image.png](./attachments/dotnet-run.png)
+![image.png](attachments/dotnet-run.png)
 
 - No navegador de sua preferência, confirme se a página do **GraphQL Playground** está disponível através do endereço: https://localhost:5001/ui/playground
 
-![image.png](./attachments/graphql-playground.png)
+![image.png](attachments/graphql-playground.png)
 
 - Pronto. Agora é só fazer os testes utilizando sintaxe do GraphQL!
