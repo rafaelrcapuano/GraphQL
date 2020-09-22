@@ -8,13 +8,13 @@
 
 - Como exemplo, permite consulta ao dados da entidade **Personagem**;
 
-- Os dados dos personagens são baseados na série **Os Cavaleros do Zodíaco**;
+- Os dados dos personagens são baseados na série **Os Cavaleiros do Zodíaco**;
 
 - Possui a seguinte estrutura:
 
     **GraphQL.Api** => Responsável por configurar e disponibilizar a API e o **GraphQL Playground**;
 
-    **GraphQL.Infra.CrossCutting** => Responsável pela configuração da injeção de dependência. Camada intermediária entre API e Infra;
+    **GraphQL.Infra.CrossCutting** => Responsável pela configuração da injeção de dependência. Camada intermediária entre API e Infra.Data;
 
     **GraphQL.Infra.Data** => Contém a estrutura do GraphQL (schema, query e types), além da classe **PersonagemRepository** que dá acesso aos dados;
 	
