@@ -6,7 +6,7 @@
 
 - Contém a estrutura básica de uma API baseada em GraphQL;
 
-- Como exemplo, permite consulta ao dados da entidade **Personagem**;
+- Como exemplo, permite consultar os dados da entidade **Personagem**;
 
 - Os dados dos personagens são baseados na série **Os Cavaleiros do Zodíaco**;
 
@@ -16,7 +16,7 @@
 
     **GraphQL.Infra.CrossCutting** => Responsável pela configuração da injeção de dependência. Camada intermediária entre API e Infra.Data;
 
-    **GraphQL.Infra.Data** => Contém a estrutura do GraphQL (schema, query e types), além da classe **PersonagemRepository** que dá acesso aos dados;
+    **GraphQL.Infra.Data** => Contém a estrutura do GraphQL (**schema**, **query** e **types**), além da classe **PersonagemRepository** que dá acesso aos dados;
 	
 	**GraphQL.Models** => Contém o modelo de dados de exemplo: a entidade **Personagem**.
   
