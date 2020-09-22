@@ -31,7 +31,7 @@
 
 # Como utilizar?
 
-- No repositório local, acesse o diretório *".../GraphQL/src/GraphQL.Api*", pois é lá que se encontra o arquivo *GraphQL.Api.csproj*. Execute o seguinte comando para iniciar o projeto e subir a API localmente:
+- No repositório local, acesse o diretório *".../GraphQL/src/GraphQL.Api*", pois é lá que se encontra o arquivo *GraphQL.Api.csproj*. Execute o comando para iniciar o projeto e subir a API localmente:
 
 ```
 dotnet run
@@ -39,8 +39,8 @@ dotnet run
 
 ![dotnet-run](attachments/dotnet-run.png)
 
-- No navegador de sua preferência, confirme se a página do **GraphQL Playground** está disponível através do endereço: https://localhost:5001/ui/playground
+- No seu navegador preferido, verifique se a página do **GraphQL Playground** está disponível através deste endereço: https://localhost:5001/ui/playground
 
 ![graphlq-playground](attachments/graphql-playground.png)
 
-- Pronto. Agora é só fazer os testes utilizando sintaxe do GraphQL!
+- Pronto. Agora é só fazer os testes utilizando a sintaxe do GraphQL!
