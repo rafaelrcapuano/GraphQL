@@ -9,7 +9,8 @@ namespace GraphQL.Infra.Data.Types
         {
             Field(x => x.Id, type: typeof(IdGraphType));
             Field(x => x.Nome);
-            Field(x => x.Constelacao).Description("Uma das doze constelações que representam os signos do zodíaco.");
+            Field(x => x.Constelacao)
+                .Description("Uma das doze constelações que representam os signos do zodíaco.");
             Field(x => x.Idade);
             Field(x => x.LocalDeNascimento);
             Field(x => x.LocalDeTreinamento);
