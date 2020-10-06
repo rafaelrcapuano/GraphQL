@@ -16,7 +16,6 @@ namespace GraphQL.Infra.CrossCutting
         {
             builder.RegisterType<SessionMock>().As<ISession>().InstancePerLifetimeScope();
             builder.RegisterType<PersonagemRepository>().As<IPersonagemRepository>().InstancePerLifetimeScope();
-
             builder.RegisterType<PersonagemSchema>().As<ISchema>().InstancePerLifetimeScope();
             builder.RegisterType<DocumentWriter>().As<IDocumentWriter>().InstancePerLifetimeScope();
             builder.RegisterType<PersonagemQuery>().InstancePerLifetimeScope();
