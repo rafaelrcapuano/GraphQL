@@ -57,6 +57,6 @@
 
 ## Referências
 
-[GraphQL Foundation](https://graphql.org/)
+[GraphQL.org](https://graphql.org/)
 
 [GraphQL para .NET](https://github.com/graphql-dotnet/graphql-dotnet)
