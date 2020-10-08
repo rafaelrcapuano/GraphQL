@@ -18,6 +18,8 @@
 	
 	**GraphQL.Models** => Contém o modelo de dados deste exemplo.
 
+    Você poderá encontrar mais detalhes sobre o tema [neste](https://medium.com/@rafacapuano/falando-a-mesma-l%C3%ADngua-com-graphql-parte-1-22cb838d404c?source=friends_link&sk=48f05cac2ec164048f1184f5c772d0a8) artigo.
+
 ## Requisitos
 
 - É necessário ter instalada a versão 3.1 ou superior do .NET Core. Caso seja necessário, faça o download [aqui](https://dotnet.microsoft.com/download/dotnet-core).
