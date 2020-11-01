@@ -6,7 +6,7 @@
 
 - Contém a estrutura básica de uma API em GraphQL.
 
-- Como exemplo, permite consultar os dados da entidade **PersonagemModel**, que são baseados na série **Os Cavaleiros do Zodíaco**, de Masami Kurumada;
+- Como exemplo, permite consultar os dados da entidade **PersonagemModel**, que são baseados na série **Os Cavaleiros do Zodíaco**, de Masami Kurumada.
 
 - Possui a seguinte estrutura:
 
