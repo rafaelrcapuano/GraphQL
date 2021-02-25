@@ -12,17 +12,17 @@
 
     **GraphQL.Api** => Responsável por configurar e disponibilizar a API e o **GraphQL Playground**.
 
-    **GraphQL.Infra.CrossCutting** => Responsável pela configuração da injeção de dependência. Camada intermediária entre API e Infra.Data.
+    **GraphQL.Infra.CrossCutting** => Aqui acontece a configuração da injeção de dependência. Camada intermediária entre API e Infra.Data.
 
     **GraphQL.Infra.Data** => Contém a estrutura do GraphQL (schema, query e types), além da classe **PersonagemRepository**, que dá acesso aos dados.
 	
-	**GraphQL.Models** => Contém o modelo de dados deste exemplo.
+	**GraphQL.Models** => Possui o modelo de dados deste exemplo.
 
     Você poderá encontrar mais detalhes sobre o tema [neste](https://medium.com/@rafacapuano/falando-a-mesma-l%C3%ADngua-com-graphql-parte-1-22cb838d404c?source=friends_link&sk=48f05cac2ec164048f1184f5c772d0a8) artigo.
 
 ## Requisitos
 
-- É necessário ter instalada a versão 3.1 ou superior do .NET Core. Caso seja necessário, faça o download [aqui](https://dotnet.microsoft.com/download/dotnet-core).
+- Precisamos da versão 3.1 ou superior do SDK do .NET Core. Você pode fazer o download [aqui](https://dotnet.microsoft.com/download/dotnet-core).
 
 - Utilizando o terminal de sua preferência, confirme se a instalação foi concluída com sucesso:
 
