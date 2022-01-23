@@ -22,7 +22,7 @@
 
 ## Requisitos
 
-- Precisamos da versão 3.1 ou superior do SDK do .NET Core. Você pode fazer o download [aqui](https://dotnet.microsoft.com/download/dotnet-core).
+- Precisamos da versão 3.1 ou superior do .NET Core. Você pode fazer o download [aqui](https://dotnet.microsoft.com/download/dotnet-core).
 
 - Utilizando o terminal de sua preferência, confirme se a instalação foi concluída com sucesso:
 
